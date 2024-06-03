@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.myNav {
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.myfooter {
+  background-color: black;
+  /* max-height: 218rem; */
+}
+
+.img {
+  height: 25rem;
+  width: 100%;
+}
+
+.location {
+  top: 15%;
+}
+
+.a-desc {
+  color: black;
+}
+
+.sign-in {
+  color: white;
+}
+
+.sign-in-desc {
+  color: white;
+}
+
+.sign-in-btn {
+  min-width: 20rem;
+}
+
+footer a {
+  color: #696969;
+  text-decoration: none;
+}
+.logo {
+  max-width: 284px;
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    max-width: 10rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .aa {
+    font-size: small;
+  }
+}
